@@ -1,0 +1,174 @@
+/* BASE STYLES - GLOBAL CHANGES ONLY */
+
+body
+	#main-content
+		.img-fluid
+			width: 100%
+		.sidebar
+			padding-left: 0px
+			padding-right: 0px
+			.grey-nav-item
+				font-family: "Oswald", sans-serif
+				display: block
+				background-color: $grey
+				border: 1px solid #bbbbbb
+				font-size: .9em
+				padding: 10px
+				color: $white
+				border-bottom-color: transparent
+				&:hover
+					transition: .2s all
+					background-color: $white
+					color: $grey
+				a
+					color: $light-grey
+					border-bottom: none
+		.bg-ecu-purple
+			background-color: $ecu-purple
+			color: $white
+			.btn-ribbon
+				margin: 25px 0px
+				color: $ecu-purple!important
+				&:hover
+					color: $white!important
+					border-color: $white!important
+					&:after
+						color: $white!important
+			.tri-image
+				display: none
+			.ecu-h2, h2, h1
+				color: $white
+				padding: 0px 0px 20px 0px
+				line-height: 1.1em
+				margin: 5px 0px
+			a
+				color: $white
+				&:hover
+					color: $ecu-gold
+					border-color: $ecu-gold
+		.bg-ecu-purple
+			background-color: $ecu-purple
+			color: $white
+			.btn-ribbon
+				margin: 25px 0px
+				color: $ecu-purple !important
+				&:hover
+					color: $white !important
+					border-color: $white !important
+					&:after
+						color: $white !important
+			.tri-image
+				display: none
+			.ecu-h2, h2, h1
+				color: $white
+				padding: 0px 0px 20px 0px
+				line-height: 1.1em
+				margin: 5px 0px
+			a
+				color: $white
+				&:hover
+					color: $ecu-gold
+					border-color: $ecu-gold
+		.ecu-dark-purple-bg
+			background-color: $dark-purple
+			color: $white
+			padding: 20px
+			margin-bottom: 10px
+			margin-top: 10px
+			button.btn-ribbon
+				&.primary
+					background-color: $dark-purple !important
+					color: $white!important
+					border: 1px solid $dark-purple !important
+					&:hover
+						background-color: $manatee !important
+						border: 1px solid $dark-purple !important
+						color: $dark-purple !important
+						&:after
+							color: $white !important
+
+				&.bg-dark
+					&:hover
+						color: $white !important
+						border: 1px solid $white !important
+						background-color: $dark-purple !important
+						&:after
+							color: $white !important
+
+				&.btn-gold
+					background-color: $ecu-bright-yellow !important
+					color: $dark-purple !important
+					&:after
+						content: none
+						color: $dark-purple !important
+
+					&:hover
+						transition: .2s all
+						background-color: $dark-purple !important
+						border-color: $ecu-bright-yellow !important
+						color: $ecu-bright-yellow !important
+						&:after
+							transition: .2s all
+							color: $ecu-bright-yellow !important
+			.ecu-h2
+				color: $white !important
+				padding: 0px 0px 20px 0px
+				line-height: 1.1em
+
+		.ribbon-style-3
+			a
+				&.ecu-btn
+					&.primary
+						color: $white
+		a.teal
+			font-family: "Oswald", sans-serif
+			text-transform: uppercase
+			background-color: #00adb3
+			padding: 10px
+			color: #003249
+			text-decoration: none
+			display: block
+			border: none
+			&.vertical
+				text-align: center
+				height: 100%
+				img
+					width: 100%
+			&.horizontal
+				margin-bottom: 15px
+				min-height: 75px
+			&:hover
+				transform: scale(1.1)
+				-moz-transform-origin: 1 1
+		.btn
+			text-align: left
+			&:after
+				content: none
+			p
+				height: 0px !important
+				margin: 0px !important
+				padding: 0px !important
+				line-height: 0.8em !important
+		.btn-pink
+			background-color: $ecu-hot-pink
+			color: $white
+			&:hover
+				transition: .2s all
+				background-color: $light-grey
+				border-color: $ecu-hot-pink
+				color: $ecu-hot-pink
+				&:after
+					transition: .2s all
+					color: $ecu-hot-pink
+		.dashboard-item
+			height: 100%
+		.dashboard-title
+			h2
+				font-weight: 600
+				font-size: 1.5em
+@media (min-width: 992px)
+	body
+		#main-content
+			.bg-ecu-purple
+				.tri-image
+					display: block
